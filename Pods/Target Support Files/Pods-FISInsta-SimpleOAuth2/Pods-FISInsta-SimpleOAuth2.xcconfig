@@ -1,0 +1,1 @@
+PODS_FISINSTA_SIMPLEOAUTH__OTHER_LDFLAGS = -framework "Foundation"

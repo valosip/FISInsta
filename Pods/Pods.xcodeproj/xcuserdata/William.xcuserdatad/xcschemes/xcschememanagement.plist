@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-FISInsta-AFNetworking.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-FISInsta-InstagramSimpleOAuth.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-FISInsta-MBProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-FISInsta-SimpleOAuth2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-FISInsta.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>4A52523263CADE9B1633A0CA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5581C0003471EDA0D0008256</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6D9634D1C6A9D9AFBC8161FC</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>B70096A7D0C8B9468216DC31</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FA5218CEB7FF53D3DBEAE112</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,1156 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01404B58D33AB5503197F889 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 77CA1780992768A539A2A7B2 /* AFHTTPRequestOperationManager.h */; };
+		04B76D78B58649F55F58E94E /* Pods-FISInsta-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9283F1FC287B1B407731B826 /* Pods-FISInsta-dummy.m */; };
+		09C333C0389142E10525B054 /* InstagramSimpleOAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 994DA749ED34536672370F04 /* InstagramSimpleOAuthViewController.m */; };
+		0E35F99532DC579B157DCC7F /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = F8E5975983BF696210A52FB1 /* AFHTTPRequestOperation.h */; };
+		10361AAF0286D0399D7C02F4 /* NSURLRequest+SimpleOAuth2.h in Headers */ = {isa = PBXBuildFile; fileRef = 42AC45CF8A0EDF648952C29B /* NSURLRequest+SimpleOAuth2.h */; };
+		1134609C42CEA636B26B1C01 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DC4D4D710A6D911B9029786 /* AFURLSessionManager.h */; };
+		19A1ADBCB80A5B59422123D8 /* UIImageView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = E043022563EDD21FCB9283E5 /* UIImageView+AFNetworking.m */; };
+		1C02A41E3390FBEDE8BE1839 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = C476A7687BCC79874B062965 /* AFNetworkReachabilityManager.h */; };
+		23A175492E5A2F290F7DC18E /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9994270A64A516ADB420CD10 /* Security.framework */; };
+		24E1E538F1CCE3760FD03330 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 91DB277AD541105E200061B9 /* AFURLConnectionOperation.m */; };
+		27B4D1F81C00D566AB24EF84 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = D76EA87DC9E67914CE66BE6A /* AFNetworking.h */; };
+		2B3E76CFB28D77F00564461C /* UIActivityIndicatorView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 7395BB2E35134A62F0374E82 /* UIActivityIndicatorView+AFNetworking.m */; };
+		2C5A120945D0706F8E1F9EEB /* InstagramAuthenticationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = F53493E2F82FB930E06F95B1 /* InstagramAuthenticationManager.m */; };
+		32DDA5C382CDE7D253C0B546 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = ED51CB2582C1ACE08EE27DC4 /* AFURLResponseSerialization.m */; };
+		32DE37935CBC8FB6707635A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 651843D69073C264DDF0EA2F /* UIKit.framework */; };
+		3485683FDF5FE20CD08D4527 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D59EF61FB7C054390EA66289 /* MobileCoreServices.framework */; };
+		3628499BC51AD9BE6B00202B /* Pods-FISInsta-SimpleOAuth2-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D4CBA9DF587E3848C4C7FF4 /* Pods-FISInsta-SimpleOAuth2-dummy.m */; };
+		3D1E1E2875B75CC621BE3A6E /* SimpleOAuth2Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = DB73400E604956097FA5E2C8 /* SimpleOAuth2Utils.m */; };
+		3E5F5972AA8BBF266FCEDCC6 /* SimpleOAuth2Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F2495D8898558D46A3C3F24 /* SimpleOAuth2Utils.h */; };
+		3E63B56324F67E2CC5956C42 /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CDD05A645D3C6FE6FE1F39B /* AFHTTPSessionManager.m */; };
+		3F3E4E77EE188D9AF59D8868 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9C92ABA9F3B98424A88B6D /* Foundation.framework */; };
+		3F9284A980D43E073FE60FFB /* Pods-FISInsta-AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9591FF53235CFFC130B6C930 /* Pods-FISInsta-AFNetworking-dummy.m */; };
+		3FCE58B1EC7A6E07D7951836 /* SimpleOAuth2AuthenticationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = EB3936AF0B7B81517705A8A9 /* SimpleOAuth2AuthenticationManager.m */; };
+		434DF50569705292E6D40689 /* SimpleOAuth2.h in Headers */ = {isa = PBXBuildFile; fileRef = 371D2DD17507400C83048451 /* SimpleOAuth2.h */; };
+		457A6E51D50D59831447CA57 /* UIAlertView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 78DB95065B823F169B993C8D /* UIAlertView+AFNetworking.h */; };
+		47BAEE09557592EC852F6269 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C78469BEF5392CC54D59A8E1 /* MBProgressHUD.h */; };
+		49BB72C348C831AF10F3F929 /* UIActivityIndicatorView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 40392065E6C99DD188F504B4 /* UIActivityIndicatorView+AFNetworking.h */; };
+		4B6B5F8CDCF9CDAD11367AD8 /* UIImageView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 8148F7A7050238BD6D7E7584 /* UIImageView+AFNetworking.h */; };
+		4CAFE2A26F1ABAD3AB1DADBD /* InstagramTokenParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = 31115B564F59D581271071B4 /* InstagramTokenParameters.m */; };
+		4EDA9D9B79D186247E176CE3 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 9977441F73FAE9BDAC58EA76 /* UIRefreshControl+AFNetworking.h */; };
+		50BB093B51BEFB9950F1F41F /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 34BC4EF7F49F4435382F3713 /* AFURLResponseSerialization.h */; };
+		516621B4CFBCA77ECF0B8980 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = EA065776270C476A81D715D6 /* AFHTTPRequestOperation.m */; };
+		5849355B8AF4136FEF285B01 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D65E3AB2CE5A37C3C7DC264C /* AFURLConnectionOperation.h */; };
+		59A0DB378E6ACE20C92AFB94 /* AFNetworkActivityIndicatorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7D98D9AA6218E4FB9805B0F /* AFNetworkActivityIndicatorManager.m */; };
+		5E200154B92909E96840876A /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 548D268C050CDDE5E60DB2F0 /* UIProgressView+AFNetworking.m */; };
+		5F5F0406FE4459370FCF9FC9 /* Pods-FISInsta-InstagramSimpleOAuth-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6A24C78DD0F710195D0C5A73 /* Pods-FISInsta-InstagramSimpleOAuth-dummy.m */; };
+		625106BAADF2AF50679A8749 /* InstagramUser.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F9F8FBD2F09CA46C93434CF /* InstagramUser.h */; };
+		6C4E7792A9ED13D9921E70E7 /* NSURLRequest+SimpleOAuth2.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B2CC25A26AC7F366B29918 /* NSURLRequest+SimpleOAuth2.m */; };
+		7347050CB30F20246F2AAA72 /* InstagramLoginResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 808ACBB4E5352F6DFD741AD9 /* InstagramLoginResponse.m */; };
+		7574B4AED1DD95062981E1AA /* UIKit+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = F55CDA19E6EE564355512EED /* UIKit+AFNetworking.h */; };
+		7A9F58F3F68ED43DAA5967CE /* AFNetworkActivityIndicatorManager.h in Headers */ = {isa = PBXBuildFile; fileRef = EFB2860D300B36E3F2B69C08 /* AFNetworkActivityIndicatorManager.h */; };
+		7B947C39A6AF8408E4C9F819 /* UIProgressView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 713B44BC3864ED9A9C3AFE2B /* UIProgressView+AFNetworking.h */; };
+		876BFCCB9C98A5F0F605E39E /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1536A17138F9F167F85356A3 /* AFHTTPRequestOperationManager.m */; };
+		8DF449EC38557B17A4FC0E11 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646E3F6716A1E6B870B3F1F3 /* CoreGraphics.framework */; };
+		8F77F29EF5D364E4B8CC0DAD /* InstagramAuthenticationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 844F99AE250F78D3011AB60C /* InstagramAuthenticationManager.h */; };
+		9331D4AC42AFD5B10E4073E2 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = AC1662BAAF7F8874F9E798F1 /* UIWebView+AFNetworking.m */; };
+		954F7A48078F77D503D1BB7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9C92ABA9F3B98424A88B6D /* Foundation.framework */; };
+		9829CC90E44C3E4ABCEBE5C1 /* TokenParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 001EFA4CB945A469DF3700E8 /* TokenParameters.h */; };
+		9C66C7015BC12003099801A3 /* UIWebView+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 5113AF8511F5FD59EDB24B76 /* UIWebView+AFNetworking.h */; };
+		A7923807F6E6D9C8B39EC162 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = EF66E7F38C8CAB18931D2B51 /* UIButton+AFNetworking.m */; };
+		A805A9CB228F37FAF110F77F /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = D71C9718DF636672AEC8CC72 /* AFSecurityPolicy.m */; };
+		AC9DB1E3BF5DDFA157A66796 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1FA8E9F666BBC350853D26E /* SystemConfiguration.framework */; };
+		ACD418799D5C89E8159269C3 /* UIAlertView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = A0B1B010563EA34AD31364B8 /* UIAlertView+AFNetworking.m */; };
+		ACEA05501EEA00D847A22B19 /* SimpleOAuth2AuthenticationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 48930AD4F5D0963A8A474706 /* SimpleOAuth2AuthenticationManager.h */; };
+		AF17692ABD2FC221B02D00E9 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C881EE55004BB9153420C73 /* AFSecurityPolicy.h */; };
+		B03D5B7FED108AACEC60F060 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A23426423F3C0FB7DFECE3F /* AFURLRequestSerialization.m */; };
+		B1B154DDB4BB9D4E9B9BE352 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9C92ABA9F3B98424A88B6D /* Foundation.framework */; };
+		B561BF4DEFE14B5A3AEA3C53 /* UIButton+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 3A387524A99FAE3E01A6D682 /* UIButton+AFNetworking.h */; };
+		C0A6939ECEB59DDA43902011 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB535C9720FADD464306A3F /* AFNetworkReachabilityManager.m */; };
+		C285FD0103CD96BEB543FEA9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9C92ABA9F3B98424A88B6D /* Foundation.framework */; };
+		C2959C013D9EE5DDCF08CAEC /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4C88B2843D3669376AAD88 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CBADB7D2FFA23A81B64416C5 /* InstagramConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7F2E3F284D5DBE9E775A61 /* InstagramConstants.m */; };
+		CEF66681C624E03F8367DE5C /* InstagramSimpleOAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE878402882D486B691A262 /* InstagramSimpleOAuth.h */; };
+		D8AF689EE4FF14CA56496011 /* InstagramSimpleOAuthViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = CD76AC406FABAB138D5712A0 /* InstagramSimpleOAuthViewController.h */; };
+		D8DB272B8818E6385545F2DD /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F2C8DAA2560507680E243FF /* AFURLRequestSerialization.h */; };
+		DA2BA3FCA296CA3CFC442EAB /* InstagramLoginResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 583D8FB206524D6F8C47E73B /* InstagramLoginResponse.h */; };
+		DB07A193A2F38FE8D9B923D4 /* Pods-FISInsta-MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 50597E40AEE9501764F76949 /* Pods-FISInsta-MBProgressHUD-dummy.m */; };
+		E0BEBEF72C409A58B36E4D35 /* AFHTTPSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 317D600453BF6805B7B20CA5 /* AFHTTPSessionManager.h */; };
+		E372BE62FA72B29D39265B54 /* InstagramUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DC9F5D2B2D7C3E71A2CC694 /* InstagramUser.m */; };
+		E537C807588D0574B614095F /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 13EF05A7F0FD7E26C9E55CB6 /* AFURLSessionManager.m */; };
+		E82B17F56A26287F1B09DA28 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9C92ABA9F3B98424A88B6D /* Foundation.framework */; };
+		E952D413B957FC4AFD1D9662 /* InstagramTokenParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 945A9315368085ECE827D869 /* InstagramTokenParameters.h */; };
+		EA0FFE80BB170FF5D453AB52 /* UIRefreshControl+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 897A490D8E332EA3BAEAA458 /* UIRefreshControl+AFNetworking.m */; };
+		EF6630EE395C89DC64980FDF /* InstagramConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 35407E634C9F57CE4F08B030 /* InstagramConstants.h */; };
+		FD70ED9987DE5B2F1E9CB9FB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 646E3F6716A1E6B870B3F1F3 /* CoreGraphics.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4089EB95D9191CF85F0A288E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 837E2520AA7641854FDD4688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D9634D1C6A9D9AFBC8161FC;
+			remoteInfo = "Pods-FISInsta-AFNetworking";
+		};
+		5B130AD04156EFD694E03516 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 837E2520AA7641854FDD4688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FA5218CEB7FF53D3DBEAE112;
+			remoteInfo = "Pods-FISInsta-InstagramSimpleOAuth";
+		};
+		70AF22D3D05830A7820683DB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 837E2520AA7641854FDD4688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B70096A7D0C8B9468216DC31;
+			remoteInfo = "Pods-FISInsta-SimpleOAuth2";
+		};
+		87B36D0622F49B7495077FA6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 837E2520AA7641854FDD4688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6D9634D1C6A9D9AFBC8161FC;
+			remoteInfo = "Pods-FISInsta-AFNetworking";
+		};
+		88D69204CCCD62C0AF926CB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 837E2520AA7641854FDD4688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A52523263CADE9B1633A0CA;
+			remoteInfo = "Pods-FISInsta-MBProgressHUD";
+		};
+		D0F58658DB1E7CB7BD5B8FAF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 837E2520AA7641854FDD4688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B70096A7D0C8B9468216DC31;
+			remoteInfo = "Pods-FISInsta-SimpleOAuth2";
+		};
+		E1B6A027243BFB0AD277E5DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 837E2520AA7641854FDD4688 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A52523263CADE9B1633A0CA;
+			remoteInfo = "Pods-FISInsta-MBProgressHUD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001EFA4CB945A469DF3700E8 /* TokenParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TokenParameters.h; path = SimpleOAuth2/Source/TokenParameters.h; sourceTree = "<group>"; };
+		0B4A7394E7811F99BDA54C81 /* libPods-FISInsta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FISInsta.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BE878402882D486B691A262 /* InstagramSimpleOAuth.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InstagramSimpleOAuth.h; path = InstagramSimpleOAuth/Source/InstagramSimpleOAuth.h; sourceTree = "<group>"; };
+		0F2C8DAA2560507680E243FF /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
+		13EF05A7F0FD7E26C9E55CB6 /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
+		1536A17138F9F167F85356A3 /* AFHTTPRequestOperationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperationManager.m; path = AFNetworking/AFHTTPRequestOperationManager.m; sourceTree = "<group>"; };
+		1AD3BAECC009867EC738991F /* Pods-FISInsta-MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FISInsta-MBProgressHUD.xcconfig"; sourceTree = "<group>"; };
+		1C881EE55004BB9153420C73 /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
+		1D4C88B2843D3669376AAD88 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		2E877273FA683D78DE750C66 /* InstagramSimpleOAuthViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = InstagramSimpleOAuthViewController.xib; path = InstagramSimpleOAuth/Source/InstagramSimpleOAuthViewController.xib; sourceTree = "<group>"; };
+		31115B564F59D581271071B4 /* InstagramTokenParameters.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InstagramTokenParameters.m; path = InstagramSimpleOAuth/Source/InstagramTokenParameters.m; sourceTree = "<group>"; };
+		317D600453BF6805B7B20CA5 /* AFHTTPSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPSessionManager.h; path = AFNetworking/AFHTTPSessionManager.h; sourceTree = "<group>"; };
+		34BC4EF7F49F4435382F3713 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
+		35407E634C9F57CE4F08B030 /* InstagramConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InstagramConstants.h; path = InstagramSimpleOAuth/Source/InstagramConstants.h; sourceTree = "<group>"; };
+		371D2DD17507400C83048451 /* SimpleOAuth2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleOAuth2.h; path = SimpleOAuth2/Source/SimpleOAuth2.h; sourceTree = "<group>"; };
+		3A0D66650017D98615D686F2 /* Pods-FISInsta-InstagramSimpleOAuth-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FISInsta-InstagramSimpleOAuth-prefix.pch"; sourceTree = "<group>"; };
+		3A387524A99FAE3E01A6D682 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
+		3AEF184F40E108B695328F54 /* Pods-FISInsta-InstagramSimpleOAuth.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FISInsta-InstagramSimpleOAuth.xcconfig"; sourceTree = "<group>"; };
+		40392065E6C99DD188F504B4 /* UIActivityIndicatorView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIActivityIndicatorView+AFNetworking.h"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h"; sourceTree = "<group>"; };
+		41D501364D4F2A523D1B9584 /* Pods-FISInsta-SimpleOAuth2.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FISInsta-SimpleOAuth2.xcconfig"; sourceTree = "<group>"; };
+		42AC45CF8A0EDF648952C29B /* NSURLRequest+SimpleOAuth2.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLRequest+SimpleOAuth2.h"; path = "SimpleOAuth2/Source/NSURLRequest+SimpleOAuth2.h"; sourceTree = "<group>"; };
+		45A06A73614308141C29146C /* libPods-FISInsta-MBProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FISInsta-MBProgressHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		48930AD4F5D0963A8A474706 /* SimpleOAuth2AuthenticationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleOAuth2AuthenticationManager.h; path = SimpleOAuth2/Source/SimpleOAuth2AuthenticationManager.h; sourceTree = "<group>"; };
+		50597E40AEE9501764F76949 /* Pods-FISInsta-MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FISInsta-MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		5113AF8511F5FD59EDB24B76 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
+		545B34F417B8A51CAE2ED17B /* Pods-FISInsta-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FISInsta-acknowledgements.markdown"; sourceTree = "<group>"; };
+		548D268C050CDDE5E60DB2F0 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
+		583D8FB206524D6F8C47E73B /* InstagramLoginResponse.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InstagramLoginResponse.h; path = InstagramSimpleOAuth/Source/InstagramLoginResponse.h; sourceTree = "<group>"; };
+		5A23426423F3C0FB7DFECE3F /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLRequestSerialization.m; path = AFNetworking/AFURLRequestSerialization.m; sourceTree = "<group>"; };
+		5CDD05A645D3C6FE6FE1F39B /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
+		5D4CBA9DF587E3848C4C7FF4 /* Pods-FISInsta-SimpleOAuth2-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FISInsta-SimpleOAuth2-dummy.m"; sourceTree = "<group>"; };
+		5DC9F5D2B2D7C3E71A2CC694 /* InstagramUser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InstagramUser.m; path = InstagramSimpleOAuth/Source/InstagramUser.m; sourceTree = "<group>"; };
+		5FF2F59F2A4BA7F5E09992C8 /* Pods-FISInsta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FISInsta.release.xcconfig"; sourceTree = "<group>"; };
+		646E3F6716A1E6B870B3F1F3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		651843D69073C264DDF0EA2F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		67A5813117A54F9EB0E10AAC /* Pods-FISInsta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FISInsta.debug.xcconfig"; sourceTree = "<group>"; };
+		6A24C78DD0F710195D0C5A73 /* Pods-FISInsta-InstagramSimpleOAuth-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FISInsta-InstagramSimpleOAuth-dummy.m"; sourceTree = "<group>"; };
+		6E7F2E3F284D5DBE9E775A61 /* InstagramConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InstagramConstants.m; path = InstagramSimpleOAuth/Source/InstagramConstants.m; sourceTree = "<group>"; };
+		6F89D54775FDB8BC824D5BF5 /* Pods-FISInsta-AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FISInsta-AFNetworking-prefix.pch"; sourceTree = "<group>"; };
+		713B44BC3864ED9A9C3AFE2B /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
+		7395BB2E35134A62F0374E82 /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
+		77CA1780992768A539A2A7B2 /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperationManager.h; path = AFNetworking/AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
+		78DB95065B823F169B993C8D /* UIAlertView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+AFNetworking.h"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.h"; sourceTree = "<group>"; };
+		7F9F8FBD2F09CA46C93434CF /* InstagramUser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InstagramUser.h; path = InstagramSimpleOAuth/Source/InstagramUser.h; sourceTree = "<group>"; };
+		808ACBB4E5352F6DFD741AD9 /* InstagramLoginResponse.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InstagramLoginResponse.m; path = InstagramSimpleOAuth/Source/InstagramLoginResponse.m; sourceTree = "<group>"; };
+		8148F7A7050238BD6D7E7584 /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
+		83B2CC25A26AC7F366B29918 /* NSURLRequest+SimpleOAuth2.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLRequest+SimpleOAuth2.m"; path = "SimpleOAuth2/Source/NSURLRequest+SimpleOAuth2.m"; sourceTree = "<group>"; };
+		844F99AE250F78D3011AB60C /* InstagramAuthenticationManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InstagramAuthenticationManager.h; path = InstagramSimpleOAuth/Source/InstagramAuthenticationManager.h; sourceTree = "<group>"; };
+		84C0805492183BA37470491B /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		88BA40F55931C99015B92F99 /* libPods-FISInsta-AFNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FISInsta-AFNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		897A490D8E332EA3BAEAA458 /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		8F2495D8898558D46A3C3F24 /* SimpleOAuth2Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SimpleOAuth2Utils.h; path = SimpleOAuth2/Source/SimpleOAuth2Utils.h; sourceTree = "<group>"; };
+		91DB277AD541105E200061B9 /* AFURLConnectionOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLConnectionOperation.m; path = AFNetworking/AFURLConnectionOperation.m; sourceTree = "<group>"; };
+		9283F1FC287B1B407731B826 /* Pods-FISInsta-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FISInsta-dummy.m"; sourceTree = "<group>"; };
+		92FBCDAEE3DB8017AE27F96D /* Pods-FISInsta-MBProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FISInsta-MBProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		938EF95661E94A81C675A4BF /* libPods-FISInsta-SimpleOAuth2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FISInsta-SimpleOAuth2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		945A9315368085ECE827D869 /* InstagramTokenParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InstagramTokenParameters.h; path = InstagramSimpleOAuth/Source/InstagramTokenParameters.h; sourceTree = "<group>"; };
+		9591FF53235CFFC130B6C930 /* Pods-FISInsta-AFNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FISInsta-AFNetworking-dummy.m"; sourceTree = "<group>"; };
+		994DA749ED34536672370F04 /* InstagramSimpleOAuthViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InstagramSimpleOAuthViewController.m; path = InstagramSimpleOAuth/Source/InstagramSimpleOAuthViewController.m; sourceTree = "<group>"; };
+		9977441F73FAE9BDAC58EA76 /* UIRefreshControl+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIRefreshControl+AFNetworking.h"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.h"; sourceTree = "<group>"; };
+		9994270A64A516ADB420CD10 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
+		9DC4D4D710A6D911B9029786 /* AFURLSessionManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLSessionManager.h; path = AFNetworking/AFURLSessionManager.h; sourceTree = "<group>"; };
+		A0B1B010563EA34AD31364B8 /* UIAlertView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+AFNetworking.m"; path = "UIKit+AFNetworking/UIAlertView+AFNetworking.m"; sourceTree = "<group>"; };
+		A664C7181453C31EE4136579 /* Pods-FISInsta-AFNetworking.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FISInsta-AFNetworking.xcconfig"; sourceTree = "<group>"; };
+		A7D98D9AA6218E4FB9805B0F /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		A88859A850EE8DC507F62736 /* libPods-FISInsta-InstagramSimpleOAuth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FISInsta-InstagramSimpleOAuth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC1662BAAF7F8874F9E798F1 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
+		AC4196AAB0130781BF2D5553 /* Pods-FISInsta-SimpleOAuth2-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FISInsta-SimpleOAuth2-Private.xcconfig"; sourceTree = "<group>"; };
+		AF79F39794D588CEFC644D12 /* Pods-FISInsta-AFNetworking-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FISInsta-AFNetworking-Private.xcconfig"; sourceTree = "<group>"; };
+		B099469BE6D79816355F233F /* Pods-FISInsta-InstagramSimpleOAuth-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FISInsta-InstagramSimpleOAuth-Private.xcconfig"; sourceTree = "<group>"; };
+		BCB535C9720FADD464306A3F /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		C476A7687BCC79874B062965 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
+		C6BD7325D99F831ED792EF57 /* Pods-FISInsta-MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FISInsta-MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		C78469BEF5392CC54D59A8E1 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C8963770284C5FDCAABF8E6E /* Pods-FISInsta-SimpleOAuth2-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FISInsta-SimpleOAuth2-prefix.pch"; sourceTree = "<group>"; };
+		CD76AC406FABAB138D5712A0 /* InstagramSimpleOAuthViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = InstagramSimpleOAuthViewController.h; path = InstagramSimpleOAuth/Source/InstagramSimpleOAuthViewController.h; sourceTree = "<group>"; };
+		D1FA8E9F666BBC350853D26E /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		D59EF61FB7C054390EA66289 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/MobileCoreServices.framework; sourceTree = DEVELOPER_DIR; };
+		D65E3AB2CE5A37C3C7DC264C /* AFURLConnectionOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLConnectionOperation.h; path = AFNetworking/AFURLConnectionOperation.h; sourceTree = "<group>"; };
+		D71C9718DF636672AEC8CC72 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
+		D76EA87DC9E67914CE66BE6A /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
+		D7925D796C5060E464D76C27 /* Pods-FISInsta-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FISInsta-acknowledgements.plist"; sourceTree = "<group>"; };
+		DB73400E604956097FA5E2C8 /* SimpleOAuth2Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SimpleOAuth2Utils.m; path = SimpleOAuth2/Source/SimpleOAuth2Utils.m; sourceTree = "<group>"; };
+		DBEB1306CB7FD5FBFC6483D1 /* Pods-FISInsta-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FISInsta-environment.h"; sourceTree = "<group>"; };
+		E043022563EDD21FCB9283E5 /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
+		E6A51D589A9368E5B82371D2 /* Pods-FISInsta-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FISInsta-resources.sh"; sourceTree = "<group>"; };
+		EA065776270C476A81D715D6 /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPRequestOperation.m; path = AFNetworking/AFHTTPRequestOperation.m; sourceTree = "<group>"; };
+		EB3936AF0B7B81517705A8A9 /* SimpleOAuth2AuthenticationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SimpleOAuth2AuthenticationManager.m; path = SimpleOAuth2/Source/SimpleOAuth2AuthenticationManager.m; sourceTree = "<group>"; };
+		ED51CB2582C1ACE08EE27DC4 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
+		EF66E7F38C8CAB18931D2B51 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
+		EF9C92ABA9F3B98424A88B6D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		EFB2860D300B36E3F2B69C08 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
+		F53493E2F82FB930E06F95B1 /* InstagramAuthenticationManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = InstagramAuthenticationManager.m; path = InstagramSimpleOAuth/Source/InstagramAuthenticationManager.m; sourceTree = "<group>"; };
+		F55CDA19E6EE564355512EED /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
+		F8E5975983BF696210A52FB1 /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFHTTPRequestOperation.h; path = AFNetworking/AFHTTPRequestOperation.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D44210CEE5F25BE82ED9F8E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				954F7A48078F77D503D1BB7E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		73A805550E22FD2BDE6BFDBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C285FD0103CD96BEB543FEA9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CED183349299763F261F658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E82B17F56A26287F1B09DA28 /* Foundation.framework in Frameworks */,
+				32DE37935CBC8FB6707635A5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8242514B2E73586E72D0BB3D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DF449EC38557B17A4FC0E11 /* CoreGraphics.framework in Frameworks */,
+				3F3E4E77EE188D9AF59D8868 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D2653AB7DDA7D87BF48D5960 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD70ED9987DE5B2F1E9CB9FB /* CoreGraphics.framework in Frameworks */,
+				B1B154DDB4BB9D4E9B9BE352 /* Foundation.framework in Frameworks */,
+				3485683FDF5FE20CD08D4527 /* MobileCoreServices.framework in Frameworks */,
+				23A175492E5A2F290F7DC18E /* Security.framework in Frameworks */,
+				AC9DB1E3BF5DDFA157A66796 /* SystemConfiguration.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15F17C71FEB32DCE6129D4CF /* Pods-FISInsta */ = {
+			isa = PBXGroup;
+			children = (
+				545B34F417B8A51CAE2ED17B /* Pods-FISInsta-acknowledgements.markdown */,
+				D7925D796C5060E464D76C27 /* Pods-FISInsta-acknowledgements.plist */,
+				9283F1FC287B1B407731B826 /* Pods-FISInsta-dummy.m */,
+				DBEB1306CB7FD5FBFC6483D1 /* Pods-FISInsta-environment.h */,
+				E6A51D589A9368E5B82371D2 /* Pods-FISInsta-resources.sh */,
+				67A5813117A54F9EB0E10AAC /* Pods-FISInsta.debug.xcconfig */,
+				5FF2F59F2A4BA7F5E09992C8 /* Pods-FISInsta.release.xcconfig */,
+			);
+			name = "Pods-FISInsta";
+			path = "Target Support Files/Pods-FISInsta";
+			sourceTree = "<group>";
+		};
+		17F92B67483AE90629D99854 = {
+			isa = PBXGroup;
+			children = (
+				84C0805492183BA37470491B /* Podfile */,
+				1AA49B02159836CFD52FCBCD /* Frameworks */,
+				CAF86E9D1970C5AD6CFF1741 /* Pods */,
+				A36A2472747C8574A5CF4FF1 /* Products */,
+				D5689AD9435A62A113B4719A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		1AA49B02159836CFD52FCBCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7291B718B6393DFBB29CD41C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		25FC49DE3D573CFC2BF75096 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A664C7181453C31EE4136579 /* Pods-FISInsta-AFNetworking.xcconfig */,
+				AF79F39794D588CEFC644D12 /* Pods-FISInsta-AFNetworking-Private.xcconfig */,
+				9591FF53235CFFC130B6C930 /* Pods-FISInsta-AFNetworking-dummy.m */,
+				6F89D54775FDB8BC824D5BF5 /* Pods-FISInsta-AFNetworking-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-FISInsta-AFNetworking";
+			sourceTree = "<group>";
+		};
+		402332745A55BAE8347626DD /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				C476A7687BCC79874B062965 /* AFNetworkReachabilityManager.h */,
+				BCB535C9720FADD464306A3F /* AFNetworkReachabilityManager.m */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		45B40875F5EEE7396667B5E1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				41D501364D4F2A523D1B9584 /* Pods-FISInsta-SimpleOAuth2.xcconfig */,
+				AC4196AAB0130781BF2D5553 /* Pods-FISInsta-SimpleOAuth2-Private.xcconfig */,
+				5D4CBA9DF587E3848C4C7FF4 /* Pods-FISInsta-SimpleOAuth2-dummy.m */,
+				C8963770284C5FDCAABF8E6E /* Pods-FISInsta-SimpleOAuth2-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-FISInsta-SimpleOAuth2";
+			sourceTree = "<group>";
+		};
+		4CFCEAA6BF10813ACD496488 /* AFNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				D76EA87DC9E67914CE66BE6A /* AFNetworking.h */,
+				808764222B25BBCB3448376D /* NSURLConnection */,
+				8F01685D709D88B46DC6261B /* NSURLSession */,
+				402332745A55BAE8347626DD /* Reachability */,
+				5C86AE75A180D13A10A74FE3 /* Security */,
+				9771F47AFE31513741373A30 /* Serialization */,
+				25FC49DE3D573CFC2BF75096 /* Support Files */,
+				6229B90F790ADC613165013F /* UIKit */,
+			);
+			path = AFNetworking;
+			sourceTree = "<group>";
+		};
+		58AD9276BC3CD651E781597C /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				C78469BEF5392CC54D59A8E1 /* MBProgressHUD.h */,
+				1D4C88B2843D3669376AAD88 /* MBProgressHUD.m */,
+				DC01C87D2A7782AAB80A3E8F /* Support Files */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		5C86AE75A180D13A10A74FE3 /* Security */ = {
+			isa = PBXGroup;
+			children = (
+				1C881EE55004BB9153420C73 /* AFSecurityPolicy.h */,
+				D71C9718DF636672AEC8CC72 /* AFSecurityPolicy.m */,
+			);
+			name = Security;
+			sourceTree = "<group>";
+		};
+		5DB780C1EECF0EC7EEA0CA5C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3AEF184F40E108B695328F54 /* Pods-FISInsta-InstagramSimpleOAuth.xcconfig */,
+				B099469BE6D79816355F233F /* Pods-FISInsta-InstagramSimpleOAuth-Private.xcconfig */,
+				6A24C78DD0F710195D0C5A73 /* Pods-FISInsta-InstagramSimpleOAuth-dummy.m */,
+				3A0D66650017D98615D686F2 /* Pods-FISInsta-InstagramSimpleOAuth-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-FISInsta-InstagramSimpleOAuth";
+			sourceTree = "<group>";
+		};
+		6229B90F790ADC613165013F /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				EFB2860D300B36E3F2B69C08 /* AFNetworkActivityIndicatorManager.h */,
+				A7D98D9AA6218E4FB9805B0F /* AFNetworkActivityIndicatorManager.m */,
+				40392065E6C99DD188F504B4 /* UIActivityIndicatorView+AFNetworking.h */,
+				7395BB2E35134A62F0374E82 /* UIActivityIndicatorView+AFNetworking.m */,
+				78DB95065B823F169B993C8D /* UIAlertView+AFNetworking.h */,
+				A0B1B010563EA34AD31364B8 /* UIAlertView+AFNetworking.m */,
+				3A387524A99FAE3E01A6D682 /* UIButton+AFNetworking.h */,
+				EF66E7F38C8CAB18931D2B51 /* UIButton+AFNetworking.m */,
+				8148F7A7050238BD6D7E7584 /* UIImageView+AFNetworking.h */,
+				E043022563EDD21FCB9283E5 /* UIImageView+AFNetworking.m */,
+				F55CDA19E6EE564355512EED /* UIKit+AFNetworking.h */,
+				713B44BC3864ED9A9C3AFE2B /* UIProgressView+AFNetworking.h */,
+				548D268C050CDDE5E60DB2F0 /* UIProgressView+AFNetworking.m */,
+				9977441F73FAE9BDAC58EA76 /* UIRefreshControl+AFNetworking.h */,
+				897A490D8E332EA3BAEAA458 /* UIRefreshControl+AFNetworking.m */,
+				5113AF8511F5FD59EDB24B76 /* UIWebView+AFNetworking.h */,
+				AC1662BAAF7F8874F9E798F1 /* UIWebView+AFNetworking.m */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		6F2678309638E2ADA85138B9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2E877273FA683D78DE750C66 /* InstagramSimpleOAuthViewController.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7291B718B6393DFBB29CD41C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				646E3F6716A1E6B870B3F1F3 /* CoreGraphics.framework */,
+				EF9C92ABA9F3B98424A88B6D /* Foundation.framework */,
+				D59EF61FB7C054390EA66289 /* MobileCoreServices.framework */,
+				9994270A64A516ADB420CD10 /* Security.framework */,
+				D1FA8E9F666BBC350853D26E /* SystemConfiguration.framework */,
+				651843D69073C264DDF0EA2F /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		808764222B25BBCB3448376D /* NSURLConnection */ = {
+			isa = PBXGroup;
+			children = (
+				F8E5975983BF696210A52FB1 /* AFHTTPRequestOperation.h */,
+				EA065776270C476A81D715D6 /* AFHTTPRequestOperation.m */,
+				77CA1780992768A539A2A7B2 /* AFHTTPRequestOperationManager.h */,
+				1536A17138F9F167F85356A3 /* AFHTTPRequestOperationManager.m */,
+				D65E3AB2CE5A37C3C7DC264C /* AFURLConnectionOperation.h */,
+				91DB277AD541105E200061B9 /* AFURLConnectionOperation.m */,
+			);
+			name = NSURLConnection;
+			sourceTree = "<group>";
+		};
+		86C77194DC028665307C1D7B /* SimpleOAuth2 */ = {
+			isa = PBXGroup;
+			children = (
+				42AC45CF8A0EDF648952C29B /* NSURLRequest+SimpleOAuth2.h */,
+				83B2CC25A26AC7F366B29918 /* NSURLRequest+SimpleOAuth2.m */,
+				371D2DD17507400C83048451 /* SimpleOAuth2.h */,
+				48930AD4F5D0963A8A474706 /* SimpleOAuth2AuthenticationManager.h */,
+				EB3936AF0B7B81517705A8A9 /* SimpleOAuth2AuthenticationManager.m */,
+				8F2495D8898558D46A3C3F24 /* SimpleOAuth2Utils.h */,
+				DB73400E604956097FA5E2C8 /* SimpleOAuth2Utils.m */,
+				001EFA4CB945A469DF3700E8 /* TokenParameters.h */,
+				45B40875F5EEE7396667B5E1 /* Support Files */,
+			);
+			path = SimpleOAuth2;
+			sourceTree = "<group>";
+		};
+		8F01685D709D88B46DC6261B /* NSURLSession */ = {
+			isa = PBXGroup;
+			children = (
+				317D600453BF6805B7B20CA5 /* AFHTTPSessionManager.h */,
+				5CDD05A645D3C6FE6FE1F39B /* AFHTTPSessionManager.m */,
+				9DC4D4D710A6D911B9029786 /* AFURLSessionManager.h */,
+				13EF05A7F0FD7E26C9E55CB6 /* AFURLSessionManager.m */,
+			);
+			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		9771F47AFE31513741373A30 /* Serialization */ = {
+			isa = PBXGroup;
+			children = (
+				0F2C8DAA2560507680E243FF /* AFURLRequestSerialization.h */,
+				5A23426423F3C0FB7DFECE3F /* AFURLRequestSerialization.m */,
+				34BC4EF7F49F4435382F3713 /* AFURLResponseSerialization.h */,
+				ED51CB2582C1ACE08EE27DC4 /* AFURLResponseSerialization.m */,
+			);
+			name = Serialization;
+			sourceTree = "<group>";
+		};
+		A36A2472747C8574A5CF4FF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B4A7394E7811F99BDA54C81 /* libPods-FISInsta.a */,
+				88BA40F55931C99015B92F99 /* libPods-FISInsta-AFNetworking.a */,
+				A88859A850EE8DC507F62736 /* libPods-FISInsta-InstagramSimpleOAuth.a */,
+				45A06A73614308141C29146C /* libPods-FISInsta-MBProgressHUD.a */,
+				938EF95661E94A81C675A4BF /* libPods-FISInsta-SimpleOAuth2.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA1C653EFEA90F2F43279DDC /* InstagramSimpleOAuth */ = {
+			isa = PBXGroup;
+			children = (
+				844F99AE250F78D3011AB60C /* InstagramAuthenticationManager.h */,
+				F53493E2F82FB930E06F95B1 /* InstagramAuthenticationManager.m */,
+				35407E634C9F57CE4F08B030 /* InstagramConstants.h */,
+				6E7F2E3F284D5DBE9E775A61 /* InstagramConstants.m */,
+				583D8FB206524D6F8C47E73B /* InstagramLoginResponse.h */,
+				808ACBB4E5352F6DFD741AD9 /* InstagramLoginResponse.m */,
+				0BE878402882D486B691A262 /* InstagramSimpleOAuth.h */,
+				CD76AC406FABAB138D5712A0 /* InstagramSimpleOAuthViewController.h */,
+				994DA749ED34536672370F04 /* InstagramSimpleOAuthViewController.m */,
+				945A9315368085ECE827D869 /* InstagramTokenParameters.h */,
+				31115B564F59D581271071B4 /* InstagramTokenParameters.m */,
+				7F9F8FBD2F09CA46C93434CF /* InstagramUser.h */,
+				5DC9F5D2B2D7C3E71A2CC694 /* InstagramUser.m */,
+				6F2678309638E2ADA85138B9 /* Resources */,
+				5DB780C1EECF0EC7EEA0CA5C /* Support Files */,
+			);
+			path = InstagramSimpleOAuth;
+			sourceTree = "<group>";
+		};
+		CAF86E9D1970C5AD6CFF1741 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CFCEAA6BF10813ACD496488 /* AFNetworking */,
+				BA1C653EFEA90F2F43279DDC /* InstagramSimpleOAuth */,
+				58AD9276BC3CD651E781597C /* MBProgressHUD */,
+				86C77194DC028665307C1D7B /* SimpleOAuth2 */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D5689AD9435A62A113B4719A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15F17C71FEB32DCE6129D4CF /* Pods-FISInsta */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		DC01C87D2A7782AAB80A3E8F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AD3BAECC009867EC738991F /* Pods-FISInsta-MBProgressHUD.xcconfig */,
+				92FBCDAEE3DB8017AE27F96D /* Pods-FISInsta-MBProgressHUD-Private.xcconfig */,
+				50597E40AEE9501764F76949 /* Pods-FISInsta-MBProgressHUD-dummy.m */,
+				C6BD7325D99F831ED792EF57 /* Pods-FISInsta-MBProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-FISInsta-MBProgressHUD";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		74F363BFCA2312A7672DC79C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47BAEE09557592EC852F6269 /* MBProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3C1E897A6F0D3222F776B4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F77F29EF5D364E4B8CC0DAD /* InstagramAuthenticationManager.h in Headers */,
+				EF6630EE395C89DC64980FDF /* InstagramConstants.h in Headers */,
+				DA2BA3FCA296CA3CFC442EAB /* InstagramLoginResponse.h in Headers */,
+				CEF66681C624E03F8367DE5C /* InstagramSimpleOAuth.h in Headers */,
+				D8AF689EE4FF14CA56496011 /* InstagramSimpleOAuthViewController.h in Headers */,
+				E952D413B957FC4AFD1D9662 /* InstagramTokenParameters.h in Headers */,
+				625106BAADF2AF50679A8749 /* InstagramUser.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1682F98BFE2173AAF9EBCB6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10361AAF0286D0399D7C02F4 /* NSURLRequest+SimpleOAuth2.h in Headers */,
+				434DF50569705292E6D40689 /* SimpleOAuth2.h in Headers */,
+				ACEA05501EEA00D847A22B19 /* SimpleOAuth2AuthenticationManager.h in Headers */,
+				3E5F5972AA8BBF266FCEDCC6 /* SimpleOAuth2Utils.h in Headers */,
+				9829CC90E44C3E4ABCEBE5C1 /* TokenParameters.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4A6E4D3B27549C2ABF04F49 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E35F99532DC579B157DCC7F /* AFHTTPRequestOperation.h in Headers */,
+				01404B58D33AB5503197F889 /* AFHTTPRequestOperationManager.h in Headers */,
+				E0BEBEF72C409A58B36E4D35 /* AFHTTPSessionManager.h in Headers */,
+				7A9F58F3F68ED43DAA5967CE /* AFNetworkActivityIndicatorManager.h in Headers */,
+				1C02A41E3390FBEDE8BE1839 /* AFNetworkReachabilityManager.h in Headers */,
+				27B4D1F81C00D566AB24EF84 /* AFNetworking.h in Headers */,
+				AF17692ABD2FC221B02D00E9 /* AFSecurityPolicy.h in Headers */,
+				5849355B8AF4136FEF285B01 /* AFURLConnectionOperation.h in Headers */,
+				D8DB272B8818E6385545F2DD /* AFURLRequestSerialization.h in Headers */,
+				50BB093B51BEFB9950F1F41F /* AFURLResponseSerialization.h in Headers */,
+				1134609C42CEA636B26B1C01 /* AFURLSessionManager.h in Headers */,
+				49BB72C348C831AF10F3F929 /* UIActivityIndicatorView+AFNetworking.h in Headers */,
+				457A6E51D50D59831447CA57 /* UIAlertView+AFNetworking.h in Headers */,
+				B561BF4DEFE14B5A3AEA3C53 /* UIButton+AFNetworking.h in Headers */,
+				4B6B5F8CDCF9CDAD11367AD8 /* UIImageView+AFNetworking.h in Headers */,
+				7574B4AED1DD95062981E1AA /* UIKit+AFNetworking.h in Headers */,
+				7B947C39A6AF8408E4C9F819 /* UIProgressView+AFNetworking.h in Headers */,
+				4EDA9D9B79D186247E176CE3 /* UIRefreshControl+AFNetworking.h in Headers */,
+				9C66C7015BC12003099801A3 /* UIWebView+AFNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4A52523263CADE9B1633A0CA /* Pods-FISInsta-MBProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E7392C2F97AAF94885181526 /* Build configuration list for PBXNativeTarget "Pods-FISInsta-MBProgressHUD" */;
+			buildPhases = (
+				195D94E1C04D40A89EAA8451 /* Sources */,
+				8242514B2E73586E72D0BB3D /* Frameworks */,
+				74F363BFCA2312A7672DC79C /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FISInsta-MBProgressHUD";
+			productName = "Pods-FISInsta-MBProgressHUD";
+			productReference = 45A06A73614308141C29146C /* libPods-FISInsta-MBProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		5581C0003471EDA0D0008256 /* Pods-FISInsta */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75BBFFE0F76EAF01088C0773 /* Build configuration list for PBXNativeTarget "Pods-FISInsta" */;
+			buildPhases = (
+				FF0C2EDC0C2BDBE7701E4A5F /* Sources */,
+				73A805550E22FD2BDE6BFDBE /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F047DAC7632B79E25924821A /* PBXTargetDependency */,
+				3D14FF2E8E39296939D605BB /* PBXTargetDependency */,
+				B5F2BD0B40A08FB2E0D2CCCF /* PBXTargetDependency */,
+				34E3738FE570707E2587E95C /* PBXTargetDependency */,
+			);
+			name = "Pods-FISInsta";
+			productName = "Pods-FISInsta";
+			productReference = 0B4A7394E7811F99BDA54C81 /* libPods-FISInsta.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6D9634D1C6A9D9AFBC8161FC /* Pods-FISInsta-AFNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 193189FA75294214CF123A48 /* Build configuration list for PBXNativeTarget "Pods-FISInsta-AFNetworking" */;
+			buildPhases = (
+				D1E4A156FD07C424815146CE /* Sources */,
+				D2653AB7DDA7D87BF48D5960 /* Frameworks */,
+				F4A6E4D3B27549C2ABF04F49 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-FISInsta-AFNetworking";
+			productName = "Pods-FISInsta-AFNetworking";
+			productReference = 88BA40F55931C99015B92F99 /* libPods-FISInsta-AFNetworking.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		B70096A7D0C8B9468216DC31 /* Pods-FISInsta-SimpleOAuth2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AEC358D67F44C8F971EE090 /* Build configuration list for PBXNativeTarget "Pods-FISInsta-SimpleOAuth2" */;
+			buildPhases = (
+				EA9AB52FCF6C5698F784BC61 /* Sources */,
+				5D44210CEE5F25BE82ED9F8E /* Frameworks */,
+				E1682F98BFE2173AAF9EBCB6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DD18156B93830683691291A /* PBXTargetDependency */,
+			);
+			name = "Pods-FISInsta-SimpleOAuth2";
+			productName = "Pods-FISInsta-SimpleOAuth2";
+			productReference = 938EF95661E94A81C675A4BF /* libPods-FISInsta-SimpleOAuth2.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FA5218CEB7FF53D3DBEAE112 /* Pods-FISInsta-InstagramSimpleOAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E50C66C449BDA5D2191D0FBC /* Build configuration list for PBXNativeTarget "Pods-FISInsta-InstagramSimpleOAuth" */;
+			buildPhases = (
+				BF5E1E91E69187E689B9E021 /* Sources */,
+				7CED183349299763F261F658 /* Frameworks */,
+				7F3C1E897A6F0D3222F776B4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				19B1AD9907998904E5301A45 /* PBXTargetDependency */,
+				99C976E04C410FEE41B6DD16 /* PBXTargetDependency */,
+			);
+			name = "Pods-FISInsta-InstagramSimpleOAuth";
+			productName = "Pods-FISInsta-InstagramSimpleOAuth";
+			productReference = A88859A850EE8DC507F62736 /* libPods-FISInsta-InstagramSimpleOAuth.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		837E2520AA7641854FDD4688 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = AE21D5F8D67720296CF22761 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17F92B67483AE90629D99854;
+			productRefGroup = A36A2472747C8574A5CF4FF1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5581C0003471EDA0D0008256 /* Pods-FISInsta */,
+				6D9634D1C6A9D9AFBC8161FC /* Pods-FISInsta-AFNetworking */,
+				FA5218CEB7FF53D3DBEAE112 /* Pods-FISInsta-InstagramSimpleOAuth */,
+				4A52523263CADE9B1633A0CA /* Pods-FISInsta-MBProgressHUD */,
+				B70096A7D0C8B9468216DC31 /* Pods-FISInsta-SimpleOAuth2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		195D94E1C04D40A89EAA8451 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2959C013D9EE5DDCF08CAEC /* MBProgressHUD.m in Sources */,
+				DB07A193A2F38FE8D9B923D4 /* Pods-FISInsta-MBProgressHUD-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5E1E91E69187E689B9E021 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C5A120945D0706F8E1F9EEB /* InstagramAuthenticationManager.m in Sources */,
+				CBADB7D2FFA23A81B64416C5 /* InstagramConstants.m in Sources */,
+				7347050CB30F20246F2AAA72 /* InstagramLoginResponse.m in Sources */,
+				09C333C0389142E10525B054 /* InstagramSimpleOAuthViewController.m in Sources */,
+				4CAFE2A26F1ABAD3AB1DADBD /* InstagramTokenParameters.m in Sources */,
+				E372BE62FA72B29D39265B54 /* InstagramUser.m in Sources */,
+				5F5F0406FE4459370FCF9FC9 /* Pods-FISInsta-InstagramSimpleOAuth-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D1E4A156FD07C424815146CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				516621B4CFBCA77ECF0B8980 /* AFHTTPRequestOperation.m in Sources */,
+				876BFCCB9C98A5F0F605E39E /* AFHTTPRequestOperationManager.m in Sources */,
+				3E63B56324F67E2CC5956C42 /* AFHTTPSessionManager.m in Sources */,
+				59A0DB378E6ACE20C92AFB94 /* AFNetworkActivityIndicatorManager.m in Sources */,
+				C0A6939ECEB59DDA43902011 /* AFNetworkReachabilityManager.m in Sources */,
+				A805A9CB228F37FAF110F77F /* AFSecurityPolicy.m in Sources */,
+				24E1E538F1CCE3760FD03330 /* AFURLConnectionOperation.m in Sources */,
+				B03D5B7FED108AACEC60F060 /* AFURLRequestSerialization.m in Sources */,
+				32DDA5C382CDE7D253C0B546 /* AFURLResponseSerialization.m in Sources */,
+				E537C807588D0574B614095F /* AFURLSessionManager.m in Sources */,
+				3F9284A980D43E073FE60FFB /* Pods-FISInsta-AFNetworking-dummy.m in Sources */,
+				2B3E76CFB28D77F00564461C /* UIActivityIndicatorView+AFNetworking.m in Sources */,
+				ACD418799D5C89E8159269C3 /* UIAlertView+AFNetworking.m in Sources */,
+				A7923807F6E6D9C8B39EC162 /* UIButton+AFNetworking.m in Sources */,
+				19A1ADBCB80A5B59422123D8 /* UIImageView+AFNetworking.m in Sources */,
+				5E200154B92909E96840876A /* UIProgressView+AFNetworking.m in Sources */,
+				EA0FFE80BB170FF5D453AB52 /* UIRefreshControl+AFNetworking.m in Sources */,
+				9331D4AC42AFD5B10E4073E2 /* UIWebView+AFNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA9AB52FCF6C5698F784BC61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4E7792A9ED13D9921E70E7 /* NSURLRequest+SimpleOAuth2.m in Sources */,
+				3628499BC51AD9BE6B00202B /* Pods-FISInsta-SimpleOAuth2-dummy.m in Sources */,
+				3FCE58B1EC7A6E07D7951836 /* SimpleOAuth2AuthenticationManager.m in Sources */,
+				3D1E1E2875B75CC621BE3A6E /* SimpleOAuth2Utils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FF0C2EDC0C2BDBE7701E4A5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04B76D78B58649F55F58E94E /* Pods-FISInsta-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19B1AD9907998904E5301A45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FISInsta-MBProgressHUD";
+			target = 4A52523263CADE9B1633A0CA /* Pods-FISInsta-MBProgressHUD */;
+			targetProxy = E1B6A027243BFB0AD277E5DD /* PBXContainerItemProxy */;
+		};
+		2DD18156B93830683691291A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FISInsta-AFNetworking";
+			target = 6D9634D1C6A9D9AFBC8161FC /* Pods-FISInsta-AFNetworking */;
+			targetProxy = 4089EB95D9191CF85F0A288E /* PBXContainerItemProxy */;
+		};
+		34E3738FE570707E2587E95C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FISInsta-SimpleOAuth2";
+			target = B70096A7D0C8B9468216DC31 /* Pods-FISInsta-SimpleOAuth2 */;
+			targetProxy = 70AF22D3D05830A7820683DB /* PBXContainerItemProxy */;
+		};
+		3D14FF2E8E39296939D605BB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FISInsta-InstagramSimpleOAuth";
+			target = FA5218CEB7FF53D3DBEAE112 /* Pods-FISInsta-InstagramSimpleOAuth */;
+			targetProxy = 5B130AD04156EFD694E03516 /* PBXContainerItemProxy */;
+		};
+		99C976E04C410FEE41B6DD16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FISInsta-SimpleOAuth2";
+			target = B70096A7D0C8B9468216DC31 /* Pods-FISInsta-SimpleOAuth2 */;
+			targetProxy = D0F58658DB1E7CB7BD5B8FAF /* PBXContainerItemProxy */;
+		};
+		B5F2BD0B40A08FB2E0D2CCCF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FISInsta-MBProgressHUD";
+			target = 4A52523263CADE9B1633A0CA /* Pods-FISInsta-MBProgressHUD */;
+			targetProxy = 88D69204CCCD62C0AF926CB3 /* PBXContainerItemProxy */;
+		};
+		F047DAC7632B79E25924821A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FISInsta-AFNetworking";
+			target = 6D9634D1C6A9D9AFBC8161FC /* Pods-FISInsta-AFNetworking */;
+			targetProxy = 87B36D0622F49B7495077FA6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0500FE45B6CAA01A8461EEDE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92FBCDAEE3DB8017AE27F96D /* Pods-FISInsta-MBProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FISInsta-MBProgressHUD/Pods-FISInsta-MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1738BC6079032AD0E9E0B0DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC4196AAB0130781BF2D5553 /* Pods-FISInsta-SimpleOAuth2-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FISInsta-SimpleOAuth2/Pods-FISInsta-SimpleOAuth2-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1E276AFF00435C3A172C68CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B099469BE6D79816355F233F /* Pods-FISInsta-InstagramSimpleOAuth-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FISInsta-InstagramSimpleOAuth/Pods-FISInsta-InstagramSimpleOAuth-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		1EC6955623F1C5B321ED084E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF79F39794D588CEFC644D12 /* Pods-FISInsta-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FISInsta-AFNetworking/Pods-FISInsta-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		35E7FB4A9816D052530C2591 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC4196AAB0130781BF2D5553 /* Pods-FISInsta-SimpleOAuth2-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FISInsta-SimpleOAuth2/Pods-FISInsta-SimpleOAuth2-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		513789F095DAE0467B48105E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FF2F59F2A4BA7F5E09992C8 /* Pods-FISInsta.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		72C39FA4598250A70BD9177A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A7D6692999340CE939F2156E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AF79F39794D588CEFC644D12 /* Pods-FISInsta-AFNetworking-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FISInsta-AFNetworking/Pods-FISInsta-AFNetworking-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		B11C6DD09BDF6C617ABA358E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B099469BE6D79816355F233F /* Pods-FISInsta-InstagramSimpleOAuth-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FISInsta-InstagramSimpleOAuth/Pods-FISInsta-InstagramSimpleOAuth-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		D07F4F19AB9DE43DE3E3647C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67A5813117A54F9EB0E10AAC /* Pods-FISInsta.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		D581BCF5FCC1AB86951456C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92FBCDAEE3DB8017AE27F96D /* Pods-FISInsta-MBProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-FISInsta-MBProgressHUD/Pods-FISInsta-MBProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F6F031214B6383F26DDEDD7C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		193189FA75294214CF123A48 /* Build configuration list for PBXNativeTarget "Pods-FISInsta-AFNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7D6692999340CE939F2156E /* Debug */,
+				1EC6955623F1C5B321ED084E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AEC358D67F44C8F971EE090 /* Build configuration list for PBXNativeTarget "Pods-FISInsta-SimpleOAuth2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35E7FB4A9816D052530C2591 /* Debug */,
+				1738BC6079032AD0E9E0B0DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75BBFFE0F76EAF01088C0773 /* Build configuration list for PBXNativeTarget "Pods-FISInsta" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D07F4F19AB9DE43DE3E3647C /* Debug */,
+				513789F095DAE0467B48105E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE21D5F8D67720296CF22761 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72C39FA4598250A70BD9177A /* Debug */,
+				F6F031214B6383F26DDEDD7C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E50C66C449BDA5D2191D0FBC /* Build configuration list for PBXNativeTarget "Pods-FISInsta-InstagramSimpleOAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E276AFF00435C3A172C68CE /* Debug */,
+				B11C6DD09BDF6C617ABA358E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7392C2F97AAF94885181526 /* Build configuration list for PBXNativeTarget "Pods-FISInsta-MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0500FE45B6CAA01A8461EEDE /* Debug */,
+				D581BCF5FCC1AB86951456C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 837E2520AA7641854FDD4688 /* Project object */;
+}

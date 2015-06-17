@@ -1,0 +1,1 @@
+PODS_FISINSTA_INSTAGRAMSIMPLEOAUTH_OTHER_LDFLAGS = -framework "Foundation" -framework "UIKit"
