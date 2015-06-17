@@ -44,7 +44,13 @@
     NSString *url = [NSString stringWithFormat:@"https://api.instagram.com/v1/users/self/feed?access_token=%@",self.token];
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     [manager GET:url parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        NSLog(@"JSON: %@", responseObject);
+        //NSLog(@"JSON: %@", responseObject);
+        NSLog(@"Here!!!!!!!!!!!!!!!!!!");
+        NSDictionary *returnData = responseObject;
+        
+        NSLog(@"%@",returnData[@"data"][0][@"tags"]);
+        
+        
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Error: %@", error);
     }];
