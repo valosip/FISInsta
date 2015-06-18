@@ -37,16 +37,12 @@
         [filteredArray addObject:newDictionary];
     }
     
-    //NSLog(@"NewArray: %@",filteredArray);
-    
+
     NSArray * arrayToSort = [filteredArray copy];
     
     NSSortDescriptor *descriptor = [[NSSortDescriptor alloc] initWithKey:@"likes" ascending:NO];
     arrayToSort=[arrayToSort sortedArrayUsingDescriptors:[NSArray arrayWithObjects:descriptor,nil]];
     self.sortedArrayByLikes = [arrayToSort copy];
-    
-    //NSLog(@"NewArray: %@",newArray);
-    
     
     
     // Uncomment the following line to preserve selection between presentations.

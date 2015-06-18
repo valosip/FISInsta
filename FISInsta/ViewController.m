@@ -98,6 +98,13 @@
             [self.imagePagination addObject:image];
             NSLog(@"Image array count: %lu", (unsigned long)self.imagePagination.count);
         }
+        if (self.imageFiles[@"pagination"][@"next_url"]){
+            NSLog(@"There are more images, need to paginate:");
+            [self getNextInstagramPage:self.paginationID];
+        }
+        if (!self.imageFiles[@"pagination"][@"next_url"]){
+            NSLog(@"There are no more images");
+        }
         
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Error: %@", error);
