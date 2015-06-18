@@ -30,8 +30,10 @@
         NSMutableDictionary * newDictionary = [[NSMutableDictionary alloc]init];
         NSString * imageURL = item[@"images"][@"thumbnail"][@"url"];
         NSString * likeCount = item[@"likes"][@"count"];
+        NSArray * hashTags = item[@"tags"];
         [newDictionary setValue:imageURL forKey:@"image"];
         [newDictionary setValue:likeCount forKey:@"likes"];
+        [newDictionary setValue:hashTags forKey:@"tags"];
         [filteredArray addObject:newDictionary];
     }
     
@@ -142,7 +144,7 @@
     FISHashTableViewController * destination = segue.destinationViewController;
     
     
-    destination.imageHashDetails = self.imageList[[self.tableView indexPathForCell:sender].row];
+    destination.imageHashDetails = self.sortedArrayByLikes[[self.tableView indexPathForCell:sender].row];
 }
 
 
