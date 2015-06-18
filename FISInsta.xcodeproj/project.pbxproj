@@ -15,6 +15,9 @@
 		3D50AA201B31F4E50078E9C2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D50AA1E1B31F4E50078E9C2 /* LaunchScreen.xib */; };
 		3D50AA2C1B31F4E50078E9C2 /* FISInstaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D50AA2B1B31F4E50078E9C2 /* FISInstaTests.m */; };
 		B01B65EDF60D8E2AE5C4E168 /* libPods-FISInsta.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E7F02DA54D4B930A8904C63D /* libPods-FISInsta.a */; };
+		CC3C356B1B32803000CE074C /* FISHashTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3C356A1B32803000CE074C /* FISHashTableViewController.m */; };
+		CC3C356E1B3302DA00CE074C /* FISMainTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CC3C356D1B3302DA00CE074C /* FISMainTableViewCell.m */; };
+		CCD6C56A1B324A510070EC92 /* FISMainTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD6C5691B324A510070EC92 /* FISMainTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +45,12 @@
 		3D50AA2A1B31F4E50078E9C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D50AA2B1B31F4E50078E9C2 /* FISInstaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FISInstaTests.m; sourceTree = "<group>"; };
 		9757730F01750DBEF87D3B02 /* Pods-FISInsta.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FISInsta.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FISInsta/Pods-FISInsta.debug.xcconfig"; sourceTree = "<group>"; };
+		CC3C35691B32803000CE074C /* FISHashTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISHashTableViewController.h; sourceTree = "<group>"; };
+		CC3C356A1B32803000CE074C /* FISHashTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISHashTableViewController.m; sourceTree = "<group>"; };
+		CC3C356C1B3302DA00CE074C /* FISMainTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISMainTableViewCell.h; sourceTree = "<group>"; };
+		CC3C356D1B3302DA00CE074C /* FISMainTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISMainTableViewCell.m; sourceTree = "<group>"; };
+		CCD6C5681B324A510070EC92 /* FISMainTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FISMainTableViewController.h; sourceTree = "<group>"; };
+		CCD6C5691B324A510070EC92 /* FISMainTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISMainTableViewController.m; sourceTree = "<group>"; };
 		E7F02DA54D4B930A8904C63D /* libPods-FISInsta.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FISInsta.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF454FE38BDD5032E902E448 /* Pods-FISInsta.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FISInsta.release.xcconfig"; path = "Pods/Target Support Files/Pods-FISInsta/Pods-FISInsta.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -102,6 +111,12 @@
 				3D50AA161B31F4E50078E9C2 /* ViewController.h */,
 				3D50AA171B31F4E50078E9C2 /* ViewController.m */,
 				3D50AA191B31F4E50078E9C2 /* Main.storyboard */,
+				CC3C356C1B3302DA00CE074C /* FISMainTableViewCell.h */,
+				CC3C356D1B3302DA00CE074C /* FISMainTableViewCell.m */,
+				CCD6C5681B324A510070EC92 /* FISMainTableViewController.h */,
+				CCD6C5691B324A510070EC92 /* FISMainTableViewController.m */,
+				CC3C35691B32803000CE074C /* FISHashTableViewController.h */,
+				CC3C356A1B32803000CE074C /* FISHashTableViewController.m */,
 				3D50AA1C1B31F4E50078E9C2 /* Images.xcassets */,
 				3D50AA1E1B31F4E50078E9C2 /* LaunchScreen.xib */,
 				3D50AA0F1B31F4E50078E9C2 /* Supporting Files */,
@@ -278,7 +293,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC3C356B1B32803000CE074C /* FISHashTableViewController.m in Sources */,
+				CC3C356E1B3302DA00CE074C /* FISMainTableViewCell.m in Sources */,
 				3D50AA181B31F4E50078E9C2 /* ViewController.m in Sources */,
+				CCD6C56A1B324A510070EC92 /* FISMainTableViewController.m in Sources */,
 				3D50AA151B31F4E50078E9C2 /* AppDelegate.m in Sources */,
 				3D50AA121B31F4E50078E9C2 /* main.m in Sources */,
 			);
